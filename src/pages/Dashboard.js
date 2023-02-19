@@ -1,5 +1,5 @@
 import React from "react";
 
 export function Dashboard() {
-  return <div>dashboard</div>;
+  return <div className="font-12px"></div>;
 }
