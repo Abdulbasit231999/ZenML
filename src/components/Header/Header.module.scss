@@ -1,5 +1,10 @@
 .header-container {
-    padding: 1rem 1.5rem;
-    background-color: "FFFFF";
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg, #b58eb1 0%, #443d99 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+  button {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 16px;
+  }
 }

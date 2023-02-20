@@ -9,7 +9,11 @@ export function SearchAutocomplete() {
         disablePortal
         options={[]}
         size="small"
-        sx={{ width: "540px" }}
+        sx={{
+          width: "540px",
+          background: "rgba(255, 255, 255, 0.9)",
+          borderRadius: "6px",
+        }}
         renderInput={(params) => (
           <TextField
             {...params}
@@ -19,7 +23,7 @@ export function SearchAutocomplete() {
               ...params.InputProps,
               startAdornment: (
                 <InputAdornment position="start">
-                  <SearchIcon color="primary"/>
+                  <SearchIcon color="primary" />
                 </InputAdornment>
               ),
             }}

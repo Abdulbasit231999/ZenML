@@ -1,0 +1,36 @@
+.main-container {
+  // width: 300px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem 1rem 1rem 1rem;
+  display: flex;
+  .sub-container-left {
+    width: 20%;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-weight: 600;
+      font-size: 20px;
+      color: var(--primary-color);
+    }
+    button {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration-line: underline;
+    }
+  }
+  .filter-section {
+    height: 505px;
+    overflow-y: scroll;
+  }
+  .sub-container-right {
+    width: 70%;
+    padding-left:2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem ;
+  }
+}

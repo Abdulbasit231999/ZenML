@@ -14,7 +14,6 @@ export function Header() {
         <Grid item xs={7} display={"flex"} justifyContent={"space-between"}>
           <SearchAutocomplete />
           <Button style={{ fontWeight: 400 }} color="primary">
-            {" "}
             Dashboard
           </Button>
           <Button> Sign in</Button>

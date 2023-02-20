@@ -1,0 +1,33 @@
+.list-box-main-container {
+  background: var(--white-color);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 1rem;
+  .list-box-left-container {
+    display: flex;
+    gap: 1rem;
+    width: 70%;
+    align-items: flex-start;
+    .heading {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+      h4 {
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--primary-color);
+      }
+    }
+    .time-elapsed {
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--disabled);
+    }
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: var(--disabled);
+    }
+  }
+}
