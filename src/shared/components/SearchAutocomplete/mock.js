@@ -1,61 +1,4 @@
-export const typeFilterList = [
-  {
-    id: 1,
-    lable: "Step",
-  },
-  {
-    id: 2,
-    lable: "Flavor",
-  },
-  {
-    id: 3,
-    lable: "Materializer",
-  },
-  {
-    id: 4,
-    lable: "Visualizer",
-  },
-];
-
-export const trustedContentList = [
-  {
-    id: 1,
-    lable: "ZenML Official",
-  },
-  {
-    id: 2,
-    lable: "Verified",
-  },
-];
-
-export const deployedFilterList = [
-  {
-    id: 1,
-    lable: "AWS",
-  },
-  {
-    id: 2,
-    lable: "Data Drift",
-  },
-  {
-    id: 3,
-    lable: "Deployment",
-  },
-  {
-    id: 4,
-    lable: "Visualizer",
-  },
-  {
-    id: 5,
-    lable: "Deployment",
-  },
-  {
-    id: 6,
-    lable: "Visualizer",
-  },
-];
-
-export const listData = [
+export const searchData = [
   {
     id: 1,
     heading: "Flavour",
@@ -64,55 +7,55 @@ export const listData = [
   },
   {
     id: 2,
-    heading: "Flavour - 1",
+    heading: "Machine Learning - 1",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 3,
-    heading: "Flavour - 2",
+    heading: "AWS",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 4,
-    heading: "Flavour - 3",
+    heading: "Azure",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 5,
-    heading: "Flavour - 4",
+    heading: "Amazon",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 6,
-    heading: "Flavour - 5",
+    heading: "React",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 7,
-    heading: "Flavour - 6",
+    heading: "Daraz",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 8,
-    heading: "Flavour - 7",
+    heading: "Oracle",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 9,
-    heading: "Flavour - 8",
+    heading: "Hp",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },
   {
     id: 10,
-    heading: "Flavour - 9",
+    heading: "Mac",
     desciptions:
       "Scalable, secure, and reliable cloud infrastructure for modern businesses.Scalable, secure, and reliable cloud infrastructure for business",
   },

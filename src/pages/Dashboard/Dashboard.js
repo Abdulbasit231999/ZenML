@@ -1,9 +1,16 @@
 import { Button } from "@mui/material";
 import { FilterAccordian } from "shared/components";
-import { deployedFilterList, trustedContentList, typeFilterList } from "./mock";
+import {
+  deployedFilterList,
+  listData,
+  trustedContentList,
+  typeFilterList,
+} from "./mock";
 import styles from "./Dashboard.module.scss";
 import { useState } from "react";
 import { ListBox } from "components";
+import { Link } from "react-router-dom";
+import { ROUTES } from "utils/routes";
 
 export function Dashboard() {
   const [reset, setReset] = useState(false);
@@ -33,12 +40,28 @@ export function Dashboard() {
             reset={reset}
             setReset={setReset}
           />
+          <FilterAccordian
+            filterName="Favourite"
+            filterList={deployedFilterList}
+            reset={reset}
+            setReset={setReset}
+          />
         </div>
       </div>
       <div className={styles["sub-container-right"]}>
-        <div>RESULT 67 packages</div>
-        <div>
-          <ListBox />
+        <div className={styles["sub-container-right-heading"]}>
+          RESULTS <span data-package-count>{listData.length}</span> packages
+        </div>
+        <div className={styles["list-items"]}>
+          {listData.map((data) => (
+            <Link to={`/product-details/${data.id}`}>
+              <ListBox
+                key={data.id}
+                description={data.desciptions}
+                heading={data.heading}
+              />
+            </Link>
+          ))}
         </div>
       </div>
     </div>

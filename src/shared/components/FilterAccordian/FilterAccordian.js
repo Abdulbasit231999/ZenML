@@ -16,6 +16,7 @@ export function FilterAccordian({
   */
   const [toggle, setToggle] = useState({});
   const [selectedFilters, setSelectedFilters] = useState({});
+  console.log('selectedFilters: ', selectedFilters);
 
   const handleToggle = (value) => {
     setToggle({ [value]: !toggle[value] });

@@ -28,9 +28,27 @@
   }
   .sub-container-right {
     width: 70%;
-    padding-left:2rem;
+    padding-left: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem ;
+    gap: 1rem;
+    .sub-container-right-heading {
+      font-weight: 400;
+      font-size: 18px;
+      color: #a8a8a8;
+      [data-package-count]{
+        color: var(--primary-color);
+      }
+    }
+  }
+  .list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 500px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }
