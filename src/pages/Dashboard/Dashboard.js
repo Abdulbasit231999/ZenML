@@ -10,7 +10,6 @@ import styles from "./Dashboard.module.scss";
 import { useState } from "react";
 import { ListBox } from "components";
 import { Link } from "react-router-dom";
-import { ROUTES } from "utils/routes";
 
 export function Dashboard() {
   const [reset, setReset] = useState(false);

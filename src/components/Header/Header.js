@@ -14,12 +14,18 @@ export function Header() {
             <img src={Logo} alt="logo" />
           </Link>
         </Grid>
-        <Grid item xs={7} display={"flex"} justifyContent={"space-between"}>
-          <SearchAutocomplete />
-          <Button style={{ fontWeight: 400 }} color="primary">
-            Dashboard
-          </Button>
-          <Button> Sign in</Button>
+        <Grid item xs={7}>
+          <Grid container display={"flex"} justifyContent={"space-between"}>
+            <Grid item xs={8}>
+              <SearchAutocomplete />
+            </Grid>
+            <Grid item xs={3} display={"flex"} justifyContent={"space-between"}>
+              <Button style={{ fontWeight: 400 }} color="primary">
+                Dashboard
+              </Button>
+              <Button> Sign in</Button>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
     </div>

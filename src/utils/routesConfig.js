@@ -16,8 +16,8 @@ export const router = createBrowserRouter([
         path: ROUTES.PRODUCT_DETAILS,
         element: <ProductDetails />,
       },
+      // For any routes that does not exist in application
+      { path: ROUTES.PAGE_NOTE_FOUND, element: <PageNotFound /> },
     ],
   },
-  // For any routes that does not exist in application
-  { path: ROUTES.PAGE_NOTE_FOUND, element: <PageNotFound /> },
 ]);

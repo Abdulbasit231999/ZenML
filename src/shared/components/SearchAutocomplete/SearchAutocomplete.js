@@ -40,7 +40,7 @@ export function SearchAutocomplete() {
         freeSolo
         size="small"
         sx={{
-          width: "540px",
+          // width: "540px",
           background: "rgba(255, 255, 255, 0.9)",
           borderRadius: "6px",
         }}
